@@ -1,0 +1,45 @@
+body {
+   background-color:#BCEAD5 ;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+#imageContainer {
+    display: flex;
+    justify-content: center;
+}
+h1,h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color:#395144 ;
+}
+#btnContainer{
+    display: flex;
+    justify-content: center;
+}
+button {
+margin-left: 30px;
+padding: 20px;
+border: none;
+border-radius: 20px;
+background-color: #395144;
+color:#BCEAD5 ;
+}
+
+button:hover {
+    border: 2px solid  #395144;
+    background-color:#BCEAD5 ;
+    color:#395144;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold ;
+    font-size: large;
+}
+
+@media all and (max-width: 500px){
+
+    h1{
+        font-size: 20px;
+    }
+
+}
